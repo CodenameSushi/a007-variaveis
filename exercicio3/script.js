@@ -1,8 +1,10 @@
 let a = 10
+let c = a
 let b = 25
-let c = 15
 
-console.log("O novo valor de a e", a+c)
-console.log("O novo valor de b e", b-c)
+a = b
+b = c
 
+console.log("O novo valor de a é", a) 
+console.log("O novo valor de b é", b)
 
